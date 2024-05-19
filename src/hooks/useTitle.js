@@ -1,12 +1,10 @@
-import { useEffect } from "react"
+import { useEffect } from "react";
 
-const useTitle = (title) => {
+export const useTitle = (title) => {
+
   useEffect(() => {
-    document.title = `${title} |Shopping Mart`
-  },[title])
-  return (
-    null
-  )
-}
+    document.title = `${title} | Shopping Cart`
+  }, [title]);
 
-export default useTitle
+  return null;
+}

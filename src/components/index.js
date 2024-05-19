@@ -1,5 +1,4 @@
-import CartCard from "./CartCard";
-import ProductCard from "./ProductCard";
-import Header from "./Header";
+export { Header } from "./Header";
 
-export {Header,ProductCard,CartCard};
+export { ProductCard } from "./ProductCard";
+export { CartCard } from "./CartCard";
